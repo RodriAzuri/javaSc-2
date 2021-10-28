@@ -1,0 +1,16 @@
+ h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    color: blue;
+    font-size: 50px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 30px;
+}
