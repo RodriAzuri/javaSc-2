@@ -21,31 +21,32 @@ while (estilo >= 1 || estilo <= 7) {
         5 - Rap
         6 - Trap
         7 - Música Clásica`));  
-    } else {
-        switch (estilo) {
-            case 1:
-                alert("Enviaremos música del estilo músical Pop al siguiente correo: " + mail);
-                break;
-            case 2:
-                alert("Enviaremos música del estilo músical Rock al siguiente correo: " + mail);
-                break;
-            case 3:
-                alert("Enviaremos música del estilo músical Reggae al siguiente correo: " + mail);
-                break;
-            case 4:
-                alert("Enviaremos música del estilo músical Electrónica al siguiente correo: " + mail);
-                break;
-            case 5:
-                alert("Enviaremos música del estilo músical Rap al siguiente correo: " + mail);
-                break;
-            case 6:
-                alert("Enviaremos música del estilo músical Trap al siguiente correo: " + mail);
-                break;
-            case 7:
-                alert("Enviaremos música del estilo Clásica al siguiente correo: " + mail);
-                break;
-        }
-    }  
+    } 
+    
+    switch (estilo) {
+        case 1:
+            alert("Enviaremos música del estilo músical Pop al siguiente correo: " + mail);
+            break;
+        case 2:
+            alert("Enviaremos música del estilo músical Rock al siguiente correo: " + mail);
+            break;
+        case 3:
+            alert("Enviaremos música del estilo músical Reggae al siguiente correo: " + mail);
+            break;
+        case 4:
+            alert("Enviaremos música del estilo músical Electrónica al siguiente correo: " + mail);
+            break;
+        case 5:
+            alert("Enviaremos música del estilo músical Rap al siguiente correo: " + mail);
+            break;
+        case 6:
+            alert("Enviaremos música del estilo músical Trap al siguiente correo: " + mail);
+            break;
+        case 7:
+            alert("Enviaremos música del estilo Clásica al siguiente correo: " + mail);
+            break;
+    }
+     
     break; 
 }
 
